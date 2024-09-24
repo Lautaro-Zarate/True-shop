@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Proyecto final</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img class="logo animate__animated animate__fadeInLeft" src="./assets/images/logo.png" alt="logo-principal"></a>
+            <div class="carrito-contact"> 
+                <a href="./pages/contact.html"><input type="button" value="Contáctanos" class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-rose-800 duration-100"></a>
+                <a href=""><img class="carrito" src="./assets/images/icono-carrito.png" alt="carrito-compras"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <img src="./assets/images/banner.png" class="banner" alt="nueva-temporada">
+        </div>
+        <h1>Productos</h1>
+        <aside>
+            <h2>Categorías</h2>
+            <li>
+                <a href=""><ul>Camperas</ul></a>
+                <a href=""><ul>Remeras</ul></a>
+                <a href=""><ul>Pantalones</ul></a>
+                <a href=""><ul>Zapatillas</ul></a>
+            </li>
+        </aside>
+        <section class="grid grid-cols-2 grid-rows-4 gap-4 p-4 md:grid-cols-3 gap-4" id="section">
+        </section>
+        <section class="section-redes">
+            <h2 class="titulo-redes">Nuestras redes</h2>
+            <div class="redes">
+                <img src="./assets/images/facebook.png" alt="Facebook">
+                <img src="./assets/images/instagram.png" alt="instagram">
+                <img src="./assets/images/x.png" alt="Twitter">
+            </div>
+        </section>
+        <footer>
+            <div class="container-footer">
+                <img src="./assets/images/logo.png" alt="Logo Footer">
+                <p>Ropa Vintage | Since 2024</p>
+            </div>
+            <p>Hecho por Lautaro Zarate</p>
+        </footer>
+
+        <script src="./js/script.js"></script>
+    </main>
+</body>
+</html>

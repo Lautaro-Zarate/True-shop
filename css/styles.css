@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    font-family: "nunito", sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.carrito-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+.logo{
+    width: 150px;
+    margin-right: 10px;
+}
+@media(min-width:1024px){
+    .logo{
+        width: 250px;
+    }
+}
+input[type="button"]{
+    padding: 5px 10px;
+    background-color: #5d85a6;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 12px;
+    border: none;
+    font-family: "nunito", sans-serif;
+}
+@media(min-width:1024px){
+    input[type="button"]{
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
+.carrito{
+    margin: 20px 10px;
+    width: 28px;
+    height: 28px;
+}
+@media(min-width:1024px){
+    .carrito{
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+.banner{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+@media(min-width: 768px){
+    .banner{
+        height: 400px;
+    }
+}
+@media(min-width:1024px){
+    .banner{
+        height: 600px;
+    }
+}
+h1{
+    font-size: 22px !important;
+    color: #5d85a6;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #e4e4e483;
+    padding: 10px 0;
+}
+@media(min-width:1024px){
+    h1{
+        font-size: 45px !important;
+    }
+}
+aside{
+    text-align: center;
+}
+h2{
+    font-size: 18px !important;
+    letter-spacing: 1px;
+    background-color: #6e9fc95e;
+    color: #3a4856;
+    padding: 10px 0;
+}
+@media(min-width: 1024px) {
+    h2{
+        font-size: 30px !important;
+    }
+}
+li{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+ul{
+    color: #5d85a6;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px !important;
+}
+@media (min-width: 1024px){
+    ul{
+        font-size: 22px !important;
+    }
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.card__image{
+    object-fit: fill;
+    max-height: 500px;
+}
+.card__text{
+    font-size: 15px;
+    margin: 5px;
+    min-height: 50px !important;
+}
+@media(min-width: 1024px) {
+    .card__text{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+}
+.card__precio{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: end;
+    margin-bottom: 5px;
+    color: #3a4856;
+}
+@media(min-width: 1024px) {
+    .card__precio{
+        font-size: 20px;
+        margin: 20px 5px;
+    }
+}
+.card__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.section-redes{
+    background-image: url(../assets/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    border-top:1px solid rgba(0, 0, 0, 0.5);
+}
+.titulo-redes{
+    color: #a2738a !important;
+    text-align: center;
+    font-size: 28px !important;
+    font-weight: 600;
+    background-color: #ffffff;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #3a4856;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    font-weight: 600;
+    color: #d3d3d3;
+}
+@media(min-width:1024px){
+    footer{
+        justify-content: space-evenly;
+    }
+    p{
+        font-size: 25px;
+        padding: 10px;
+        font-weight: 700;
+    }
+}
+
+/* CSS DE PAGINA DE CONTACTO */
+.body-form{
+    background-color: #d3d3d3;
+}
+.formulario{
+    background-image: url(../assets/images/image-form.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+    margin: 40px 0;
+    max-height: fit-content;
+}
+.capa-form{
+    background-color: #a3a3a3a6
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-form{
+    background-color: initial;
+    color: #ededed;
+    font-size: 30px !important;
+    font-weight: 700;
+}
+label{
+    margin: 20px;
+    color: #ededed;
+    font-weight: 700;
+}
+input{
+    background-color: initial;
+    border:1px solid #ededed;
+    border-radius: 10px;
+    outline: none;
+    color: #e6e6e6;
+    padding: 2px;
+    margin: 3px;
+}
+input::placeholder{
+    color: #d3d3d3 !important; 
+    font-size: 15px;
+}
+input:focus{
+    border:1px solid #ffffff;
+    outline:1px solid #ffffff;
+}
+input[type="submit"]{
+    background-color: #ededed;
+    margin: 10px;
+    color: #3a4856;
+    padding: 5px 20px;
+}
+@media(min-width: 768px){
+    .formulario{
+        margin: 40px;
+    }
+}
+@media (min-width: 1024px) {
+    .formulario{
+        margin: 50px 300px;
+        height: 600px;
+    }
+    .capa-form{
+        height: 600px;
+    }
+    .title-form{
+        font-size: 45px !important;
+    }
+    label{
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    input{
+        margin-left: 10px;
+    }
+    input::placeholder{
+        font-size: 20px;
+    }
+    input[type="submit"]{
+        padding: 10px 30px;
+        font-size: 22px;
+        margin: 20px;
+    }
+}
+
+
+/* HACER FORMULARIO PARA PC */
