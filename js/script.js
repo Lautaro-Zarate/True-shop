@@ -10,7 +10,7 @@ let apiLocal = fetch(`./js/object.json`)
                 <img src="${prod.imagen}" class="card__image" alt="Zapatillas Nike">
                 <h3 class="card__text">${prod.nombre}</h3>
                 <div class="card__container">
-                    <p class="card__precio" >${prod.precio}</p>
+                    <p class="card__precio" >$${prod.precio}</p>
                     <input type="button" value="Añadir al Carrito" class= "card__carrito bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-900 hover:scale-105 transition-all duration-300 ease-in-out">
                 </div>`
         section.append(li)
