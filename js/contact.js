@@ -1,4 +1,6 @@
+// JAVASCRIPT DE LA PAGINA DE CONTACTOS
 // localStorage.clear();
+
 let formulario = document.getElementById("formulario")
 formulario.addEventListener("submit", confirmacionDeRegistro) 
 
@@ -8,7 +10,7 @@ function confirmacionDeRegistro(e){
     let apellidoUsuario = document.getElementById("apellido").value;
     let emailUsuario = document.getElementById("email").value;
     let contraseñaUsuario = document.getElementById("password").value;
-
+    
     const nuevoUsuario = {
         nombreUsuario : nombreUsuario,
         apellidoUsuario : apellidoUsuario,
