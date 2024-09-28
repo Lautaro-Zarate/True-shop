@@ -10,7 +10,10 @@ function armarListaConProductos(){
     const li = document.createElement("div");
     listaCarrito.forEach(prod => {
         li.innerHTML += `
-        <h2></h2>
+        <h2>${prod.nombre}</h2>
+        <p>${prod.imagen}</p>
+        <p>${prod.precio}</p>
         `
+        listaCarrito.appendChild(li)
     });
 }

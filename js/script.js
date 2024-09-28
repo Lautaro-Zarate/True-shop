@@ -1,8 +1,16 @@
-const section = document.getElementById("section")
-let apiLocal = fetch(`./js/object.json`)
+let productos = []; 
+
+fetch(`./js/object.json`)
 .then((resp) => resp.json())
 .then((data) => {
-    data.forEach((prod) => {
+    productos = data;
+    armadoDeProductos();
+})
+.catch(error => console.error('Error al cargar el archivo JSON:', error));
+
+const section = document.getElementById("section")
+function armadoDeProductos(){
+    productos.forEach((prod) => {
         const li = document.createElement("div")
         li.innerHTML = `
             <div class="flex flex-col bg-white p-2 shadow-xl items-stretch">
@@ -15,17 +23,7 @@ let apiLocal = fetch(`./js/object.json`)
             </div>`
         section.append(li)
     });
-})
-
-let productos = []; 
-
-fetch(`./js/object.json`)
-.then((resp) => resp.json())
-.then((data) => {
-    productos = data;
-})
-.catch(error => console.error('Error al cargar el archivo JSON:', error));
-
+}
 // JAVASCRIPT DE FILTRADOS DE PRENDAS👇
 
 function filtrarCategoria(categoria) {
@@ -85,6 +83,6 @@ function agregarProductos(codigo){
         title: "¡Producto agregado correctamente!",
         color: "#fff",
         showConfirmButton: false,
-        timer: 2500
+        timer: 1200
     })
 }
