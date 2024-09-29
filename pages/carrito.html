@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -26,7 +27,19 @@
     <div id="lista-carrito" class="lista__carrito lg: flex flex-row justify-center mt-1.5">
     </div>
     <hr>
-    <h4 id="precioTotal" class="text-4xl">###</h4>
+    <h4 id="precioTotal" class="precio-final text-4xl"></h4>
+    <p class="mensaje-final text-8xl text-blue-800" id="mensajeDeCompra"></p>
+    <hr>
+    <div class="container-btn">
+        <button class="btn-compra" id="comprar">Comprar</button>
+    </div>
+    <footer>
+        <div class="container-footer">
+            <img src="../assets/images/logo.png" alt="Logo Footer">
+            <p>Ropa Vintage | Since 2024</p>
+        </div>
+        <p>Hecho por Lautaro Zarate</p>
+    </footer>
     <script src="../js/carrito.js"></script>
 </body>
 </html>

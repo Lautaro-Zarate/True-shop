@@ -17,7 +17,6 @@ function confirmacionDeRegistro(e){
         emailUsuario : emailUsuario,
         contraseñaUsuario : contraseñaUsuario
     }
-    
     localStorage.setItem("registroDeUsuario", JSON.stringify(nuevoUsuario));
     
     Swal.fire({

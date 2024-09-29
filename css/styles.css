@@ -310,12 +310,24 @@ input[type="submit"]{
     margin: 10px;
 }
 .btn__carrito{
-    background-color: rgba(255, 0, 0, 0.700);
+    background-color: #ff0000b3;
     color: white;
     width: 50px;
     font-size: 18px;
     font-weight: 900;
     margin: 10px;
+}
+.container-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-compra{
+    padding: 5px 25px;
+    background-color: #5d85a6;
+    color: #ffffff;
+    font-size: 22px;
+    margin: 10px 0;
 }
 @media(min-width:1024px){
     .image__carrito{
@@ -328,4 +340,14 @@ input[type="submit"]{
         width: 100px;
         font-size: 22px;
     }
+}
+.precio-final{
+    text-align: center;
+    color: #5d85a6;
+    margin: 10px 0;
+}
+.mensaje-final{
+    color: #5d85a6 !important;
+    text-align: center;
+    margin: 200px 0;
 }
