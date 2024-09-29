@@ -1,12 +1,12 @@
 let productos = []; 
 
-fetch(`/data/object.json`)
+fetch(`./data/object.json`)
 .then((resp) => resp.json())
 .then((data) => {
     productos = data;
     armadoDeProductos()
 })
-.catch( error => console.error("El archivo no esta bien cargaod", error))
+.catch(error => console.error("El archivo no esta bien cargaod", error))
 
 const section = document.getElementById("section")
 
@@ -25,7 +25,6 @@ function armadoDeProductos(){
         section.append(li)
     });
 }
-armadoDeProductos()
 // JAVASCRIPT DE FILTRADOS DE PRENDAS👇
 
 function filtrarCategoria(categoria) {
