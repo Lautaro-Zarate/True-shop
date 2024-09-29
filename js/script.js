@@ -1,10 +1,9 @@
 let productos = []; 
 
-fetch(`/data/object.json`)
+fetch(`./data/object.json`)
 .then((resp) => resp.json())
 .then((data) => {
     productos = data;
-    armadoDeProductos();
 })
 .catch(armadoDeProductos());
 
