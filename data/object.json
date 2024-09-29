@@ -1,44 +1,44 @@
 [
     {
-        "id":1,"nombre":"Zapatillas Nike AIR Max Triax ‘96","categoria":"zapatillas", "precio":150000,"imagen":"../assets/images/prod.png"
+        "id":1,"nombre":"Zapatillas Nike AIR Max Triax ‘96","categoria":"zapatillas", "precio":150000,"imagen":"./assets/images/prod.png"
     },
     {
-        "id":2,"nombre":"Camperas 🥶 Nike Swoosh ‘90","categoria":"camperas","precio":220000,"imagen":"../assets/images/prod2.png"
+        "id":2,"nombre":"Camperas 🥶 Nike Swoosh ‘90","categoria":"camperas","precio":220000,"imagen":"./assets/images/prod2.png"
     },
     {
-        "id":3,"nombre":"Camperas Nike ‘90 ❤️‍🔥 Rompevientos Center big Swoosh","categoria":"camperas","precio":180000,"imagen":"../assets/images/prod3.png"
+        "id":3,"nombre":"Camperas Nike ‘90 ❤️‍🔥 Rompevientos Center big Swoosh","categoria":"camperas","precio":180000,"imagen":"./assets/images/prod3.png"
     },
     {
-        "id":4,"nombre":"Camperas adi 80s 🇺🇸 | Rompevientos 🥶🥶 2000' Swoosh","categoria":"camperas","precio":250000,"imagen":"../assets/images/prod4.png"
+        "id":4,"nombre":"Camperas adi 80s 🇺🇸 | Rompevientos 🥶🥶 2000' Swoosh","categoria":"camperas","precio":250000,"imagen":"./assets/images/prod4.png"
     },
     {
-        "id":5,"nombre":"Pantalón | Big NIKE 00'","categoria":"pantalones","precio":120000,"imagen":"../assets/images/prod5.png"
+        "id":5,"nombre":"Pantalón | Big NIKE 00'","categoria":"pantalones","precio":120000,"imagen":"./assets/images/prod5.png"
     },
     {
-        "id":6,"nombre":"Remeras AFA x adidas Mundial ‘98","categoria":"remeras","precio":210000,"imagen":"../assets/images/prod6.png"
+        "id":6,"nombre":"Remeras AFA x adidas Mundial ‘98","categoria":"remeras","precio":210000,"imagen":"./assets/images/prod6.png"
     },
     {
-        "id":7,"nombre":"Zapatillas adidas 🍁 adi-2000", "categoria":"zapatillas","precio":195000,"imagen":"../assets/images/prod7.png"
+        "id":7,"nombre":"Zapatillas adidas 🍁 adi-2000", "categoria":"zapatillas","precio":195000,"imagen":"./assets/images/prod7.png"
     },
     {
-        "id":8,"nombre":"Pantalón Nike Court ‘90 🥶","categoria":"pantalones","precio":110000,"imagen":"../assets/images/prod8.png"
+        "id":8,"nombre":"Pantalón Nike Court ‘90 🥶","categoria":"pantalones","precio":110000,"imagen":"./assets/images/prod8.png"
     },
     {
-        "id":9,"nombre":"Zapatillas adidas Campus ‘00","categoria":"zapatillas", "precio":180000,"imagen":"../assets/images/prod9.png"
+        "id":9,"nombre":"Zapatillas adidas Campus ‘00","categoria":"zapatillas", "precio":180000,"imagen":"./assets/images/prod9.png"
     },
     {
-        "id":10,"nombre":"Remeras AFA x adidas icon 2022 🇦🇷","categoria":"remeras","precio":200000,"imagen":"../assets/images/prod10.png"
+        "id":10,"nombre":"Remeras AFA x adidas icon 2022 🇦🇷","categoria":"remeras","precio":200000,"imagen":"./assets/images/prod10.png"
     },
     {
-        "id":11,"nombre":"Pantalón Nike • Vintage","categoria":"pantalones","precio":200000,"imagen":"../assets/images/prod11.png"
+        "id":11,"nombre":"Pantalón Nike • Vintage","categoria":"pantalones","precio":200000,"imagen":"./assets/images/prod11.png"
     },
     {
-        "id":12,"nombre":"Camperas Nike 00’🥶","categoria":"camperas","precio":300000,"imagen":"../assets/images/prod12.png"
+        "id":12,"nombre":"Camperas Nike 00’🥶","categoria":"camperas","precio":300000,"imagen":"./assets/images/prod12.png"
     },
     {
-        "id":13,"nombre":"Remeras adidas originals 🧃","categoria":"remeras","precio":125000,"imagen":"../assets/images/prod13.png"
+        "id":13,"nombre":"Remeras adidas originals 🧃","categoria":"remeras","precio":125000,"imagen":"./assets/images/prod13.png"
     },
     {
-        "id":14,"nombre":"Remeras Nike Basketball 🏀","categoria":"remeras","precio":100000,"imagen":"../assets/images/prod14.png"
+        "id":14,"nombre":"Remeras Nike Basketball 🏀","categoria":"remeras","precio":100000,"imagen":"./assets/images/prod14.png"
     }
 ]
