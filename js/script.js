@@ -1,13 +1,15 @@
 let productos = []; 
 
-fetch(`./data/object.json`)
+fetch(`/data/object.json`)
 .then((resp) => resp.json())
 .then((data) => {
     productos = data;
+    armadoDeProductos()
 })
-.catch(armadoDeProductos());
+.catch( error => console.error("El archivo no esta bien cargaod", error))
 
 const section = document.getElementById("section")
+
 function armadoDeProductos(){
     productos.forEach((prod) => {
         const li = document.createElement("div")
@@ -23,6 +25,7 @@ function armadoDeProductos(){
         section.append(li)
     });
 }
+
 // JAVASCRIPT DE FILTRADOS DE PRENDAS👇
 
 function filtrarCategoria(categoria) {
@@ -46,7 +49,6 @@ function mostrarProductos(filtrados) {
         contenedor.appendChild(item);
     });
 }
-
 const camperas = document.getElementById("camperas")
 camperas.addEventListener("click", function(e) {
     e.preventDefault();
