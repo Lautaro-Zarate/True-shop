@@ -6,7 +6,7 @@ fetch(`/data/object.json`)
     productos = data;
     armadoDeProductos();
 })
-.catch(error => console.error('Error al cargar el archivo JSON:', error));
+.catch(armadoDeProductos());
 
 const section = document.getElementById("section")
 function armadoDeProductos(){
