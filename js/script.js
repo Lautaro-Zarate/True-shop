@@ -25,7 +25,7 @@ function armadoDeProductos(){
         section.append(li)
     });
 }
-
+armadoDeProductos()
 // JAVASCRIPT DE FILTRADOS DE PRENDAS👇
 
 function filtrarCategoria(categoria) {
