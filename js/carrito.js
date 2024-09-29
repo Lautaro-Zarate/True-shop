@@ -7,13 +7,17 @@ if (carritoConProductos){
 
 function armarListaConProductos(){
     listaCarrito.innerHTML = ""
-    const li = document.createElement("div");
-    listaCarrito.forEach(prod => {
-        li.innerHTML += `
-        <h2>${prod.nombre}</h2>
-        <p>${prod.imagen}</p>
-        <p>${prod.precio}</p>
+    const contenedor = document.createElement("div");
+    carritoConProductos.forEach(prod => {
+        contenedor.innerHTML += `
+        <img src="${prod.imagen}" class="image__carrito" alt="${prod.nombre}">
+        <h3 class="title__carrito">${prod.nombre}</h3>
+        <div class="container__carrito flex flex-row justify-between items-center">
+        <p class="price__carrito">$${prod.precio}</p>
+        <button class="btn__carrito">x</button>
+        </div>
         `
-        listaCarrito.appendChild(li)
+        listaCarrito.appendChild(contenedor)
     });
 }
+console.log(carritoConProductos)

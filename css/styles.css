@@ -291,4 +291,41 @@ input[type="submit"]{
 }
 
 
-/* HACER FORMULARIO PARA PC */
+/* PAGINA DE CARRITO */
+.image__carrito{
+    width: 100%;
+}
+.title__carrito{
+    font-weight: 500;
+    margin: 5px 0;
+    color: #1e2b38;
+    text-align: center;
+}
+.__container__carrito{
+    margin: 5px 10px;
+}
+.price__carrito{
+    color: black;
+    font-weight: 500;
+    margin: 10px;
+}
+.btn__carrito{
+    background-color: rgba(255, 0, 0, 0.700);
+    color: white;
+    width: 50px;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 10px;
+}
+@media(min-width:1024px){
+    .image__carrito{
+        width: 100%;
+    }
+    .title__carrito{
+        font-size: 22px !important;
+    }
+    .btn__carrito{
+        width: 100px;
+        font-size: 22px;
+    }
+}
