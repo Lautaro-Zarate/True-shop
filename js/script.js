@@ -6,7 +6,7 @@ fetch(`./data/object.json`)
     productos = data;
     armadoDeProductos()
 })
-.catch(error => console.error("El archivo no esta bien cargaod", error))
+.catch(error => console.error("El archivo no esta bien cargado", error))
 
 const section = document.getElementById("section")
 
@@ -14,12 +14,12 @@ function armadoDeProductos(){
     productos.forEach((prod) => {
         const li = document.createElement("div")
         li.innerHTML = `
-            <div class="flex flex-col bg-white p-2 shadow-xl items-stretch">
+            <div class="flex flex-col bg-white p-2 shadow-xl items-stretch card-primary-container">
                 <img src="${prod.imagen}" class="card__image" alt="${prod.nombre}">
                 <h3 class="card__text">${prod.nombre}</h3>
                 <div class="card__container">
                     <p class="card__precio" >$${prod.precio}</p>
-                    <input type="button" value="Añadir al Carrito" onclick="agregarProductos(${prod.id}) "class= "card__carrito bg-blue-500 text-white font-bold py-2 px-4 rounded-lg active:bg-blue-900 active:scale-105 transition-all duration-150 ease-in-out" id="${prod.id}">
+                    <input type="button" value="Añadir al Carrito" onclick="agregarProductos(${prod.id}) "class= "card__carrito bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-900 hover:scale-105 transition-all duration-150 ease-in-out" id="${prod.id}">
                 </div>
             </div>`
         section.append(li)

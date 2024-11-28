@@ -78,6 +78,13 @@ h1{
     background-color: #e4e4e483;
     padding: 10px 0;
 }
+.card-primary-container{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-primary-container:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
 @media(min-width:1024px){
     h1{
         font-size: 45px !important;
